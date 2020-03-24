@@ -25,5 +25,5 @@ module.exports = Object.freeze({
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
     NAME: "@ProNoobDrive_bot"
   },
-  IS_TEAM_DRIVE: false
+  IS_TEAM_DRIVE: true
 });
