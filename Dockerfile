@@ -22,6 +22,7 @@ WORKDIR /bot
 RUN git clone https://github.com/Jackyj09/CloudTorrentDrive /bot
 
 COPY ./src/.constants.js /bot/src/
-COPY ./aria*.sh ./credentials.json ./start.sh /bot/
+
+COPY ./aria*.sh ./client_secret.json ./credentials.json ./start.sh /bot/
 
 CMD ["bash","start.sh"]
